@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+#pokename{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    height: 600px;
+    justify-content: space-evenly;
+}
+
+.vs h1{
+    font-size: 100px;
+    font-weight: 800rem;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to right , #c21500 , #ffc500);
+}
+#btn{
+    padding:1rem 2rem;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.poke{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: #ccc;
+    background: linear-gradient(to left , #ccc , black);
+    width: 35rem;
+    height: 35rem;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.poke:hover{
+    transform: translateY(-10px);
+}
+
+#poke1-name,#poke2-name,#result{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
